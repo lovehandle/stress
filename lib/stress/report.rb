@@ -10,7 +10,7 @@ module Stress
     end
 
     def title
-      "Report #{name}"
+      "Iteration #{name}"
     end
 
     def details
