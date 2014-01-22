@@ -8,7 +8,7 @@ Stress is a performance measurement library for quick calculations as to respons
 ## Installation
 
 ```
-git clone git://github.com:rclosner/stress.git
+git clone https://github.com/rclosner/stress.git
 cd stress
 bundle install
 ```
