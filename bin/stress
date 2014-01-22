@@ -4,7 +4,7 @@ require 'trollop'
 require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'stress'))
 
 opts = Trollop.options do
-  opt :endpoint, "Remote endpoint to test", type: :string
+  opt :endpoint, "Remote endpoint to test", type: :string, required: true
   opt :concurrency, "Number of simultaneous connections", type: :integer, default: 10
   opt :iterations, "Number of times to run the test", type: :integer, default: 1
   opt :verbose, "Whether or not to print the results of the test", type: :boolean, default: false
